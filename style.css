@@ -1,0 +1,42 @@
+body,
+h1,
+h2,
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: rgb(112, 75, 75);
+}
+header {
+    background: red;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+header h1{
+    margin-bottom: 0.5rem;
+}
+main{
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    background: rgb(241, 241, 239);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0 1);
+
+}
+
+footer{
+    background: brown;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
